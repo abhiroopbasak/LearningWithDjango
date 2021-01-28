@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Connectium</title>
+<link rel="stylesheet" type="text/css">
+</head>
+<style>
+	 .navbar a{
+      float:left;
+      display: block;
+      color: white;
+      text-align:center;
+      padding:25px 50px;
+    }
+
+    #leftbox{
+    	float:left;
+    	background: #FF8C00;
+    	width:80%;
+    	height:70px;
+    }
+
+    
+    #rightbox{
+    	float:right;
+    	background: #00008B;
+    	width:20%;
+    	height:70px;
+    }
+
+
+    input[type=submit]{
+         background:#FF8C00;
+         color: white;
+         width:450px;
+         height:60px;
+         border:red;
+          border-radius:25px;
+         font-weight: bold
+    }
+
+    
+</style>
+<body>
+	<body style="background-image: url('https://larkaiproject1.s3.ap-south-1.amazonaws.com/background.png');">
+		<div id="leftbox">
+
+      
+
+        <img src="https://larkaiproject1.s3.ap-south-1.amazonaws.com/Connectium_logo.png" style="height: 70px;width: 70px;">
+
+      
+      
+    </div>
+    
+    <div id="rightbox">
+    	<center><h2 style="color:white;">User </h3></center>
+    </div>
+    <br><br><br><br><br><br><br><br>
+    <center>
+
+      
+      
+      <img src="https://larkaiproject1.s3.ap-south-1.amazonaws.com/Connectium_logo.png" style="height: 400px;width: 400px;">
+      
+
+      {% block content %}
+
+      {% endblock %}
+
+    
+
+    
+    	
+    </center>
+</body>
+</html>
