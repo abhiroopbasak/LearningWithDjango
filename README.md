@@ -13,6 +13,7 @@ Upon clicking "Sum" a function sum is called in the python language and the resu
 ![result page](output.png)
 
 Furthermore, the use of repl.it was used to develop the same. The exact repository can be seen by visiting [here](https://repl.it/@abhiroopbasak/DjangoBasics)
+Visit the webpage hosted in repl.it at [here](https://djangobasics.abhiroopbasak.repl.co/)
 
 
 
